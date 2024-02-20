@@ -4,14 +4,15 @@ import { styles } from './styles';
 
 type Props = {
     name: string;
+    tag: string;
     onRemove: () => void;
 }
 
-export function Participant({name, onRemove}: Props){
+export function Participant({name, onRemove, tag}: Props){
     return(
         <View style={styles.container}>
             <Text style={styles.name}> 
-                {name}
+                {tag} - {name}
             </Text>
 
             <TouchableOpacity

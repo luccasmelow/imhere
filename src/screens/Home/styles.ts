@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
         width: '100%',
         flexDirection: 'row',
         marginTop: 24,
-        marginBottom: 32,
+        
     },
     input:{
         flex: 1,
